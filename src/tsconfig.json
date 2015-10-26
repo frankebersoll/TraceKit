@@ -1,0 +1,17 @@
+{
+	"compilerOptions": {
+        "module": "umd",
+        "target": "es3",
+        "noResolve": false,
+        "diagnostics": true,
+        "listFiles": true
+    },
+	"bundles": {
+        "app": {
+            "files": [ 
+				"typings/tsd.d.ts",
+				"tracekit.ts"
+			]
+        }
+    }
+}
